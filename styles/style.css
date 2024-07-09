@@ -105,7 +105,7 @@ display: flex;
 
     width: 90%;
     margin-top: 60px;
-    margin-left: 15px;
+    margin-left: 10px;
   
 }
 #lado-derecho{
@@ -123,6 +123,7 @@ display: flex;
     width: 100%;
     height: 60px;
     margin-top: 20px;
+    margin-left: 40px;
 
 }
 
@@ -133,5 +134,17 @@ display: flex;
     font-size: 40px;
 }
 
+#subti{
 
+    width: 50%;
+  margin-top: 40px;
+}
+
+#subti1{
+
+    width: 50%;
+  margin-top: 40px;
+  font-size: 25px;
+  color: lightpink;
+}
 
