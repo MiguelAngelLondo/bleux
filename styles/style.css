@@ -11,16 +11,13 @@ font-family: sans-serif;
     border: none;
     border-radius: 3px;
 }
-#right-section1{
-    width: 100%;
-    height: 800px;
-    background-size: cover;
-    opacity: 0.9;
-}
+
 #phone{
     position: relative;
-    left: 400px;
-    top: 100px;
+    left: 900px;
+    top: 230px;
+    width: 40%;
+    height: 60%;
     
 }
 
@@ -52,18 +49,16 @@ width: 100%;
 }
 
 #sect-1{
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-width: 7000px;
-flex-direction: column;
+
+    margin-top: 260px;
 }
 #titulo-sect1{
-
+    display: flex;
     font-size: 40px;
     font-weight: bolder;
     color: white;
+    align-items: center;
+
 }
 #titulo-sect1-1{
  
@@ -77,9 +72,10 @@ flex-direction: column;
 #texto-sect1{
     
     text-align: center;
-    width:450px;
+    width:500px;
     margin-top: 60px;
     color: white;
+    margin-right: 50px;
 }
 
 #botones-sect1{
@@ -96,7 +92,26 @@ display: flex;
 #hojas{
 
     display: flex;
+    width: 1000px;
     
+}
+#it{
+    background-color: whitesmoke;
+    color: var(--pink);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+#it2{
+
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 10px 35px;
+    outline: none;
+    border: solid 2px whitesmoke;
+    border-radius: 3px;
+    font-weight: bold;
 }
     #section2{
 
@@ -326,3 +341,53 @@ display: flex;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+#get1{
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    background: linear-gradient(20deg, #ffb6de,#fa77bb,#ff68b6,#f85eae, #f41587);
+
+}
+#get2{
+
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;   
+    background-color: #2e2550;
+}
+#get3{
+
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;   
+    background-color: #2e2550;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#texto-footer{
+    display: flex;
+    width: 50%;
+}
+
+#redes{
+display: flex;
+flex-direction: row;
+gap: 20px;
+width: 30px;
+}
+#name{
+    color: #f41587;
+}
+
