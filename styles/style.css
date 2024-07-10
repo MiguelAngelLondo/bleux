@@ -148,3 +148,17 @@ display: flex;
   color: lightpink;
 }
 
+#lz-chulo{
+
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    margin-top: 8px;
+    
+}
+
+#chulo{
+    
+    color: rgb(235, 28, 180);
+    width: 20px;
+}
