@@ -504,5 +504,131 @@
        
     }
     }
+
+
+    @media only screen and (max-width: 768px) {
+    
+        #botonnav{
+            width: 100px;
+            height: 40px;
+    
+        }
+
+    
+         #left-section1{
+            width: 50%;
+         }
+         #text1{
+            font-size: 20px;
+            height: auto;
+            width: 200px;
+            margin-right: 100px;
+         }
+         #product{
+    
+            margin-left: 100px;
+         }
+         .p-p{
+            font-size: 40px;
+         }
+         #right-section1{
+    
+            width: 50%;
+         }
+         #phone{
+            position: relative;
+            width: 200px;
+            height: 400px;
+            left: 30px;
+            top: 200px;
+         }
+         #section2{
+    
+            height: 450px;
+         }
+         #box{
+    
+            height: 100px;
+         }
+         #titulo-sect2-1{
+    
+            font-size: 30px;
+         }
+         #lado-izquierdo{
+    
+            height: 200px;
+         }
+         #lado-derecho{
+            height: 200px;
+            width: 100px;
+         }
+         #laptop{
+            position: relative;
+            width: 200px;
+            top: 100px;
+            right: 65px;
+            
+         }
+         #titulo-iz{
+    
+            font-size: 20px;
+         }
+         #subti{
+    
+            width: 100%;
+         }
+         #subti1{
+    
+            width: 100%;
+            font-size: 20px;
+         }
+         #chulo{
+    
+            font-size: 20px;
+         }
+    
+         #pricing-section{
+    
+            margin-top: 10px;
+            height: 2100px;
+         }
+         
+         #pricing-title{
+    
+            font-size: 40px;
+         }
+         #pricing-description{
+            width: 470px;
+            font-size: 16px;
+         }
+    
+        #pricing-boxes{
+            display: grid;
+           flex-direction: column;
+           margin-left: 5px;
+           gap: 20px;
+           width: auto;
+           
+        }
+        #footer{
+    
+            width: 100px;
+    
+        }
+    
+        #texto-footer{
+            display: flex;
+            font-size: 10px;
+            margin-right: 0px;
+            margin-left: 30px;
+            width: 350px;
+        }
+        #redes{
+            gap: 5px;
+            width: 20px;
+            margin-left: 250px;
+           
+        }
+        }
     
     
