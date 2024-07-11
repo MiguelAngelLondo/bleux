@@ -12,9 +12,12 @@
         border-radius: 3px;
     }
     
+   .nav-link{
+    color: white;
+   }
     #phone{
         position: relative;
-        left: 900px;
+        left: 70px;
         top: 230px;
         width: 200px;
         height: 430px;
@@ -37,69 +40,36 @@
     
     }
     
-    
-    
     #section1{
-    
-    display: flex;
-    background-color:#32274a;
-    height: 800px;
-    width: 100%;
-    
+        display: flex;
+        flex-direction: row;
     }
-    
-    #sect-1{
-    
-        margin-top: 260px;
+    #left-section1{
         width: 100%;
-        margin-left: 100px;
-    }
-    
-    #titulo-sect1{
+        height: 800px;
+        background-color: #2e2550;
         display: flex;
-        font-size: 40px;
-        font-weight: bolder;
-        color: white;
+        justify-content: center;
         align-items: center;
-    
+        flex-direction: column;
     }
-    #titulo-sect1-1{
-     
-        font-size: 40px;
+    #product{
+        margin-left: 320px;
+    }
+    .p-p{
+        color: white;
+        font-size: 80px;
         font-weight: bolder;
+    }
+    #text1{
+        margin-top: 20px;
+        font-size: 20px;
         color: white;
-    
-       
     }
-    
-    #texto-sect1{
-        
-        text-align: center;
-        width:500px;
-        margin-top: 60px;
-        color: white;
-        margin-right: 50px;
-    }
-    
-    #botones-sect1{
-    
-        margin-top: 50px;
-    }
-    
-    #sect-2{
-    display: flex;
-     background-size: cover;
-     width: 100%;
-     background-color: aqua;
-     background-image: url(/bleux/assets/image/hojasFondo.jpg);
-        }
-    #hojas{
-    
-        display: flex;
-        width: 1000px;
-        
-    }
-    #it{
+    #button1-sect1{
+        margin-top: 25px;
+        width: 180px;
+        height: 50px;
         background-color: whitesmoke;
         color: var(--pink);
         border: none;
@@ -107,8 +77,10 @@
         border-radius: 3px;
         font-weight: bold;
     }
-    #it2{
-    
+    #button2-sect1{
+        margin-top: 25px;
+        width: 180px;
+        height: 50px;
         background-color: transparent;
         color: whitesmoke;
         padding: 10px 35px;
@@ -117,6 +89,20 @@
         border-radius: 3px;
         font-weight: bold;
     }
+    #right-section1{
+        width: 100%;
+        height: 800px;
+        background-image: url(../assets/images/hojasFondo.jpg);
+        background-size: cover;
+        opacity: 0.9;
+    }
+    #phone{
+        position: relative;
+        left: 120px;
+        top: 100px;
+    }  
+    
+   
         #section2{
     
             
@@ -372,17 +358,17 @@
     
     footer{
         display: flex;
-        flex-direction: row;
         height: 70px;
         width: 100%;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
        
     }
     
     #texto-footer{
         display: flex;
         width: 50%;
+        margin-left: 200px;
     }
     
     #redes{
@@ -390,6 +376,7 @@
     flex-direction: row;
     gap: 20px;
     width: 30px;
+    margin-left: 200px;
     }
     #name{
         color: #f41587;
@@ -397,80 +384,125 @@
     
     @media only screen and (max-width: 480px) {
     
-    
-        #section1{
-           width: auto;
-        }
-    
-        #sect-1{
-    
-      
-           width: 500px;
-           margin-bottom: 500px;
-           margin-right: 500px;
+    #botonnav{
+        width: 80px;
+        height: 10px;
+
+    }
+     #left-section1{
+        width: 230px;
+     }
+     #text1{
+        font-size: 20px;
+        height: auto;
+        width: 200px;
+        margin-right: 100px;
+     }
+     #product{
+
+        margin-left: 100px;
+     }
+     .p-p{
+        font-size: 40px;
+     }
+     #right-section1{
+
+        width: 250px;
+     }
+     #phone{
+        position: relative;
+        width: 200px;
+        height: 400px;
+        left: 30px;
+        top: 200px;
+     }
+     #section2{
+
+        height: 450px;
+     }
+     #box{
+
+        height: 100px;
+     }
+     #titulo-sect2-1{
+
+        font-size: 30px;
+     }
+     #lado-izquierdo{
+
+        height: 200px;
+     }
+     #lado-derecho{
+        height: 200px;
+        width: 100px;
+     }
+     #laptop{
+        position: relative;
+        width: 200px;
+        top: 100px;
+        right: 65px;
         
-        }
-        #sect-2{
-    
-      width: 200px;
-         
-         }
-        #phone{
-    
-            left: 300px;
-        }
-        #titulo-sect1{
-    
-            font-size: 15px;
-        }
-        #titulo-sect1-1{
-    
-            font-size: 15px;
-        }
-        #texto-sect1{
-            font-size: 15px;
-            width: 200px;
-        }
-        #it{
-            size: 5px;
-        }
-        #hojas{
-    
-            width: 300px;
-        }
-        #section2{
-    
-            height: 500px;
-        }
-        #titulo-sect2-1{
-            font-size: 30px;
-        }
-        #subti{
-           font-size: 15px;
-           width: 100%;
-        }
-        #box{
-            width: 100%;
-        }
-        #lado-derecho{
-            height:50%;
-            width: 80%;
-        }
-        #laptop{
-    
-            width: 100%;
-            margin-top: 50%;
-        }
-        #lz-chulo{
-            width: 100%;
-        }
-        #titulo-iz{
-    
-            font-size: 20px;
-        }
-        #subti1{
-            font-size: 15px;
-        }
+     }
+     #titulo-iz{
+
+        font-size: 20px;
+     }
+     #subti{
+
+        width: 100%;
+     }
+     #subti1{
+
+        width: 100%;
+        font-size: 20px;
+     }
+     #chulo{
+
+        font-size: 20px;
+     }
+
+     #pricing-section{
+
+        margin-top: 10px;
+        height: 2100px;
+     }
+     
+     #pricing-title{
+
+        font-size: 40px;
+     }
+     #pricing-description{
+        width: 470px;
+        font-size: 16px;
+     }
+
+    #pricing-boxes{
+        display: grid;
+       flex-direction: column;
+       margin-left: 5px;
+       gap: 20px;
+       width: auto;
+       
+    }
+    #footer{
+
+        width: 100px;
+
+    }
+
+    #texto-footer{
+        display: flex;
+        font-size: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 350px;
+    }
+    #redes{
+        gap: 5px;
+        width: 20px;
+        margin-left: 30px;
+       
+    }
     }
     
     
