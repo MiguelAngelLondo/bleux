@@ -359,16 +359,15 @@
     footer{
         display: flex;
         height: 70px;
-        width: 100%;
         align-items: center;
-        justify-content: start;
+       
        
     }
     
     #texto-footer{
         display: flex;
-        width: 50%;
-        margin-left: 200px;
+        width: auto;
+        margin-left: 400px;
     }
     
     #redes{
@@ -376,267 +375,162 @@
     flex-direction: row;
     gap: 20px;
     width: 30px;
-    margin-left: 200px;
+    margin-left: 300px;
+
+   
     }
     #name{
         color: #f41587;
     }
     
-    @media only screen and (max-width: 480px) {
-    
-    #botonnav{
-        width: 80px;
-        height: 10px;
+    @media only screen and (max-width: 1279px) {
 
-    }
-     #left-section1{
-        width: 230px;
-     }
-     #text1{
-        font-size: 20px;
-        height: auto;
-        width: 200px;
-        margin-right: 100px;
-     }
-     #product{
-
-        margin-left: 100px;
-     }
-     .p-p{
-        font-size: 40px;
-     }
-     #right-section1{
-
-        width: 250px;
-     }
-     #phone{
-        position: relative;
-        width: 200px;
-        height: 400px;
-        left: 30px;
-        top: 200px;
-     }
-     #section2{
-
-        height: 450px;
-     }
-     #box{
-
-        height: 100px;
-     }
-     #titulo-sect2-1{
-
-        font-size: 30px;
-     }
-     #lado-izquierdo{
-
-        height: 200px;
-     }
-     #lado-derecho{
-        height: 200px;
-        width: 100px;
-     }
-     #laptop{
-        position: relative;
-        width: 200px;
-        top: 100px;
-        right: 65px;
-        
-     }
-     #titulo-iz{
-
-        font-size: 20px;
-     }
-     #subti{
-
-        width: 100%;
-     }
-     #subti1{
-
-        width: 100%;
-        font-size: 20px;
-     }
-     #chulo{
-
-        font-size: 20px;
-     }
-
-     #pricing-section{
-
-        margin-top: 10px;
-        height: 2100px;
-     }
-     
-     #pricing-title{
-
-        font-size: 40px;
-     }
-     #pricing-description{
-        width: 470px;
-        font-size: 16px;
-     }
-
-    #pricing-boxes{
-        display: grid;
-       flex-direction: column;
-       margin-left: 5px;
-       gap: 20px;
-       width: auto;
+        #header1{
+          margin-left: 70px;
+        }
+          #botonnav{
+              width: 100px;
+              height: 40px;
+      
+          }
+  
+      
+           #left-section1{
+              width: 50%;
+           }
+           #text1{
+              font-size: 20px;
+              height: auto;
+              width: 200px;
+              margin-right: 100px;
+           }
+           #product{
+      
+              margin-left: 100px;
+           }
+           .p-p{
+              font-size: 40px;
+           }
+           #right-section1{
+      
+              width: 50%;
+           }
+           #phone{
+              position: relative;
+              width: 200px;
+              height: 400px;
+              left: 30px;
+              top: 200px;
+           }
+           #section2{
+      
+              height: 450px;
+           }
+           #box{
+      
+              height: 300px;
+           }
+           #titulo-sect2-1{
+      
+              font-size: 50px;
+           }
+           #lado-izquierdo{
+      
+              height: 300px;
+              position: relative;
+              width: auto;
        
-    }
-    #footer{
-
-        width: 100px;
-
-    }
-
-    #texto-footer{
-        display: flex;
-        font-size: 10px;
-        margin-right: 0px;
-        margin-left: 0px;
-        width: 350px;
-    }
-    #redes{
-        gap: 5px;
-        width: 20px;
-        margin-left: 30px;
-       
-    }
-    }
-
-
-    @media only screen and (max-width: 768px) {
-    
-        #botonnav{
-            width: 100px;
-            height: 40px;
-    
-        }
-
-    
-         #left-section1{
-            width: 50%;
-         }
-         #text1{
-            font-size: 20px;
-            height: auto;
-            width: 200px;
-            margin-right: 100px;
-         }
-         #product{
-    
-            margin-left: 100px;
-         }
-         .p-p{
-            font-size: 40px;
-         }
-         #right-section1{
-    
-            width: 50%;
-         }
-         #phone{
-            position: relative;
-            width: 200px;
-            height: 400px;
-            left: 30px;
-            top: 200px;
-         }
-         #section2{
-    
-            height: 450px;
-         }
-         #box{
-    
-            height: 100px;
-         }
-         #titulo-sect2-1{
-    
-            font-size: 30px;
-         }
-         #lado-izquierdo{
-    
-            height: 200px;
-         }
-         #lado-derecho{
-            height: 200px;
-            width: 100px;
-         }
-         #laptop{
-            position: relative;
-            width: 200px;
-            top: 100px;
-            right: 65px;
-            
-         }
-         #titulo-iz{
-    
-            font-size: 20px;
-         }
-         #subti{
-    
-            width: 100%;
-         }
-         #subti1{
-    
-            width: 100%;
-            font-size: 20px;
-         }
-         #chulo{
-    
-            font-size: 20px;
-         }
-    
-         #pricing-section{
-    
-            margin-top: 10px;
-            height: 2100px;
-         }
-         
-         #pricing-title{
-    
-            font-size: 40px;
-         }
-         #pricing-description{
-            width: 470px;
-            font-size: 16px;
-         }
-    
-        #pricing-boxes{
-            display: grid;
-           flex-direction: column;
-           margin-left: 5px;
-           gap: 20px;
-           width: auto;
+           }
+           #lado-derecho{
+              height: 200px;
+              width: 600px;
+           }
+           #laptop{
+              position: relative;
+              width: 350px;
+              height: 250px;
+              top: 1px;
+              right: 65px;
+              
+           }
+           #titulo-iz{
+      
+              font-size: 20px;
+           }
+           #subti{
+      
+              width: 70%;
+           }
+           #subti1{
+      
+              width: 100%;
+              font-size: 20px;
+           }
+           #chulo{
+      
+              font-size: 20px;
+           }
+      
+           #pricing-section{
+      
+              margin-top: 10px;
+              height: 1000px;
+           }
            
-        }
-        #footer{
-    
-            width: 100px;
-    
-        }
-    
-        #texto-footer{
-            display: flex;
-            font-size: 10px;
-            margin-right: 0px;
-            margin-left: 30px;
-            width: 350px;
-        }
-        #redes{
-            gap: 5px;
-            width: 20px;
-            margin-left: 250px;
+           #pricing-title{
+      
+              font-size: 70px;
+           }
+           #pricing-description{
+              width: 470px;
+              font-size: 16px;
+           }
+      
+          #pricing-boxes{
+              
            
-        }
-        }
-    
-        @media only screen and (max-width: 920px) {
+             margin-left: 5px;
+             gap: 50px;
+             width: auto;
+             margin-top: 70px;
+             
+          }
+          #footer{
+      width: 100px;
+      
+          }
+      
+          #texto-footer{
+              display: flex;
+              font-size: 20px;
+              margin-left: 30px;
+              width: 800px;
+          }
+          #redes{
+              gap: 20px;
+              width: 30px;
+              margin-left: 200px;
+             
+          }
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* "listo" */
+
+          @media only screen and (max-width: 920px) {
     
             #botonnav{
                 width: 100px;
-                height: 40px;
-        
+                height: 40px;    
             }
     
         
@@ -667,9 +561,10 @@
                 left: 30px;
                 top: 200px;
              }
+            
              #section2{
-        
-                height: 450px;
+            
+                height: 200px;
              }
              #box{
         
@@ -689,9 +584,10 @@
              }
              #laptop{
                 position: relative;
-                width: 200px;
+                width: 230px;
+                height: 150px;
                 top: 100px;
-                right: 65px;
+                right: 120px;
                 
              }
              #titulo-iz{
@@ -714,13 +610,13 @@
         
              #pricing-section{
         
-                margin-top: 10px;
-                height: 2100px;
+                margin-top: 250px;
+                height: 1000px;
              }
              
              #pricing-title{
         
-                font-size: 40px;
+                font-size: 50px;
              }
              #pricing-description{
                 width: 470px;
@@ -728,31 +624,511 @@
              }
         
             #pricing-boxes{
-                display: grid;
-               flex-direction: column;
-               margin-left: 5px;
-               gap: 20px;
-               width: auto;
                
+             
+               margin-right: 700px;
+               gap: 20px;
+               width: 100px;
+               
+            }
+
+            .note-text{
+
+                width: auto;
+                margin-right: 50px;
             }
             #footer{
         
-                width: 100px;
+          width: 100px;
         
             }
-        
             #texto-footer{
-                display: flex;
-                font-size: 10px;
+             
+                font-size: 16px;
                 margin-right: 0px;
-                margin-left: 30px;
-                width: 350px;
+             
+             
             }
             #redes{
                 gap: 5px;
-                width: 20px;
-                margin-left: 250px;
+                width: 40px;
+                margin-right: 150px;
                
             }
-            }
+        
+           
+        }
+
+
+
+
+
+
+
+
+        /* "LISTO" */
+            @media only screen and (max-width: 768px) {
     
+                #botonnav{
+                    width: 100px;
+                    height: 40px;
+            
+                }
+        
+            
+                 #left-section1{
+                    width: 50%;
+                 }
+                 #text1{
+                    font-size: 20px;
+                    height: auto;
+                    width: 200px;
+                    margin-right: 100px;
+                 }
+                 #product{
+            
+                    margin-left: 100px;
+                 }
+                 .p-p{
+                    font-size: 40px;
+                 }
+                 #right-section1{
+            
+                    width: 50%;
+                 }
+                 #phone{
+                    position: relative;
+                    width: 200px;
+                    height: 400px;
+                    left: 30px;
+                    top: 200px;
+                 }
+                 #section2{
+            
+                    height: 450px;
+                 }
+                 #box{
+            
+                    height: 100px;
+                 }
+                 #titulo-sect2-1{
+            
+                    font-size: 30px;
+                 }
+                 #lado-izquierdo{
+            
+                    height: 200px;
+                 }
+                 #lado-derecho{
+                    height: 200px;
+                    width: 100px;
+                 }
+                 #laptop{
+                    position: relative;
+                    width: 230px;
+                    height: 150px;
+                    top: 100px;
+                    right: 120px;
+                    
+                 }
+                 #titulo-iz{
+            
+                    font-size: 20px;
+                 }
+                 #subti{
+            
+                    width: 100%;
+                 }
+                 #subti1{
+            
+                    width: 100%;
+                    font-size: 20px;
+                 }
+                 #chulo{
+            
+                    font-size: 20px;
+                 }
+            
+                 #pricing-section{
+            
+                    margin-top: 10px;
+                    height: 2100px;
+                 }
+                 
+                 #pricing-title{
+            
+                    font-size: 40px;
+                 }
+                 #pricing-description{
+                    width: 470px;
+                    font-size: 16px;
+                 }
+            
+                #pricing-boxes{
+                    display: grid;
+                   flex-direction: column;
+                   margin-left: 5px;
+                   gap: 20px;
+                   width: auto;
+                   
+                }
+                #footer{
+            
+                    width: 100px;
+            
+                }
+            
+                #texto-footer{
+                    display: flex;
+                    font-size: 10px;
+                    margin-right: 0px;
+                    margin-left: 30px;
+                    width: 300px;
+                }
+                #redes{
+                    gap: 5px;
+                    width: 20px;
+                    margin-right: 150px;
+                   
+                }
+            }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* "LISTO" */
+@media only screen and (max-width: 480px) {
+
+
+    #header1{
+
+        width: 500px;
+        margin-left: 1px;
+    }
+
+    #logo{
+
+        width: 100px;
+    }
+    
+        #botonnav{
+            width: 100px;
+            height: 40px;
+            margin-right: 20px;
+
+        }
+        #left-section1{
+            width: 230px;
+        }
+        #text1{
+            font-size: 20px;
+            height: auto;
+            width: 200px;
+            margin-right: 100px;
+        }
+        #product{
+
+            margin-left: 100px;
+        }
+        .p-p{
+            font-size: 40px;
+        }
+        #right-section1{
+
+            width: 250px;
+        }
+        #phone{
+            position: relative;
+            width: 200px;
+            height: 400px;
+            left: 30px;
+            top: 200px;
+        }
+        #section2{
+
+            height: 450px;
+        }
+        #box{
+
+            height: 100px;
+        }
+        #titulo-sect2-1{
+
+            font-size: 30px;
+        }
+        #lado-izquierdo{
+
+            height: 200px;
+        }
+        #lado-derecho{
+            height: 200px;
+            width: 100px;
+        }
+        #laptop{
+            position: relative;
+            width: 200px;
+            height: 150px;
+            top: 100px;
+            right: 90px;
+            
+        }
+        #titulo-iz{
+
+            font-size: 20px;
+        }
+        #subti{
+
+            width: 100%;
+        }
+        #subti1{
+
+            width: 100%;
+            font-size: 20px;
+        }
+        #chulo{
+
+            font-size: 20px;
+        }
+
+        #pricing-section{
+
+            margin-top: 10px;
+            height: 2100px;
+        }
+        
+        #pricing-title{
+
+            font-size: 40px;
+        }
+        #pricing-description{
+            width: 470px;
+            font-size: 15px;
+        }
+
+        #pricing-boxes{
+            display: grid;
+        flex-direction: column;
+        margin-left: 5px;
+        gap: 20px;
+        width: auto;
+        
+        }
+        footer{
+
+        display: flex;
+        width: 100%;
+        gap: 200px;
+        
+            
+
+        }
+
+
+        #redes{
+
+            position: relative;
+            right: 100px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            margin-left: 0px;
+            margin: 0;
+    }
+    #texto-footer{
+
+        font-size: 15px;
+        flex-direction: column;
+        
+    }
+}
+
+
+
+
+
+  
+    
+     
+
+@media only screen and (max-width: 352px) {
+
+    header{
+
+        width: 100%;
+    }
+
+    #header1{
+
+        width: 400px;
+        font-size: 12px;
+        margin-right: 10px;
+        
+    }
+
+    #logo{
+
+        width: 90px;
+    }
+    
+        #botonnav{
+            display: none;
+
+        }
+        #section1{
+            display: flex;
+            flex-direction: column;
+        }
+        #left-section1{
+            width: 100%;
+            height: 600px;
+            
+            
+        }
+        .p-p{
+            font-size: 10px;
+          
+        }
+        #text1{
+            font-size: 16px;
+            height: auto;
+            width: 140px;
+            margin-right: 100px;
+            text-align: center;
+        }
+
+    
+        #product{
+
+            margin-left: 100px;
+        }
+        .p-p{
+            font-size: 40px;
+        }
+        #right-section1{
+
+            width: 100%;
+            height: 600px;
+        }
+        #phone{
+            position: relative;
+            width: 150px;
+            height: 290px;
+            left: 110px;
+            top: 200px;
+        }
+        #section2{
+        
+            height: 450px;
+            margin-bottom: 100%;
+        }
+        #box{
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+        }
+        #titulo-sect2-1{
+
+            font-size: 30px;
+            margin-left: 10px;
+            width: auto;
+        }
+        #lado-izquierdo{
+            position: relative;
+            left: 60px;
+            height: 1px;
+            width: 200px;
+        }
+        #lado-derecho{
+            height: 200px;
+            width: 100px;
+        }
+        #laptop{
+            position: relative;
+            width: 200px;
+            height: 150px;
+            top: 1px;
+            left: 20px;
+            
+        }
+        #titulo-iz{
+
+            font-size: 20px;
+        }
+        #subti{
+
+            width: 100%;
+        }
+        #subti1{
+
+            width: 100%;
+            font-size: 16px;
+        }
+        #chulo{
+
+            font-size: 16px;
+        }
+
+        #pricing-section{
+
+            margin-top: 10px;
+            height: 2200px;
+        }
+        
+        #pricing-title{
+
+            font-size: 30px;
+        }
+        #pricing-description{
+            width: 200px;
+            font-size: 12px;
+        }
+
+        #pricing-boxes{
+            position: relative;
+            left: 100%;
+            display: flex;
+            flex-direction: column;
+           
+
+        
+        }
+        footer{
+
+        display: flex;
+        width: 100%;
+        gap: 200px;
+        
+            
+
+        }
+
+
+        #redes{
+
+            position: relative;
+            right: 100px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            margin-left: 0px;
+            margin: 0;
+    }
+    #texto-footer{
+
+        font-size: 15px;
+        flex-direction: column;
+        
+    }
+}
